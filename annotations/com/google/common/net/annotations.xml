@@ -5,9 +5,6 @@
     <item name='com.google.common.net.HttpHeaders CONTENT_SECURITY_POLICY'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.HostSpecifier com.google.common.net.HostSpecifier from(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders ACCEPT_CHARSET'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
@@ -26,7 +23,7 @@
     <item name='com.google.common.net.HttpHeaders ACCESS_CONTROL_ALLOW_HEADERS'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName from(java.lang.String)'>
+    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromParts(java.lang.String, int)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders TRANSFER_ENCODING'>
@@ -38,10 +35,19 @@
     <item name='com.google.common.net.HttpHeaders IF_UNMODIFIED_SINCE'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromHost(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.HttpHeaders ACCESS_CONTROL_REQUEST_HEADERS'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses java.net.Inet4Address get6to4IPv4Address(java.net.Inet6Address) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName topPrivateDomain()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName child(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName from(java.lang.String) 0'>
@@ -51,6 +57,9 @@
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders REFRESH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort withDefaultPort(int)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders TRAILER'>
@@ -65,10 +74,7 @@
     <item name='com.google.common.net.MediaType com.google.common.net.MediaType parse(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromHost(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName parent()'>
+    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlFormParameterEscaper()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders P3P'>
@@ -83,34 +89,25 @@
     <item name='com.google.common.net.HttpHeaders PROXY_AUTHORIZATION'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlPathSegmentEscaper()'>
+    <item name='com.google.common.net.HttpHeaders X_FRAME_OPTIONS'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort requireBracketsForIPv6()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.HttpHeaders X_FRAME_OPTIONS'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders X_CONTENT_TYPE_OPTIONS'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromString(java.lang.String)'>
+    <item name='com.google.common.net.HostSpecifier com.google.common.net.HostSpecifier from(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.InternetDomainName com.google.common.collect.ImmutableList&lt;java.lang.String&gt; parts()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromParts(java.lang.String, int)'>
+    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlPathSegmentEscaper()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses com.google.common.net.InetAddresses.TeredoInfo getTeredoInfo(java.net.Inet6Address) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromParts(java.lang.String, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.InetAddresses.TeredoInfo java.net.Inet4Address getClient()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders HOST'>
@@ -122,10 +119,10 @@
     <item name='com.google.common.net.HttpHeaders PUBLIC_KEY_PINS'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.InetAddresses.TeredoInfo java.net.Inet4Address getServer()'>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType create(java.lang.String, java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType create(java.lang.String, java.lang.String) 0'>
+    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort fromString(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders MAX_FORWARDS'>
@@ -149,13 +146,13 @@
     <item name='com.google.common.net.MediaType com.google.common.net.MediaType withParameters(com.google.common.collect.Multimap&lt;java.lang.String,java.lang.String&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName topPrivateDomain()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders RETRY_AFTER'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders X_DO_NOT_TRACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType parse(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders SET_COOKIE'>
@@ -168,9 +165,6 @@
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders LAST_MODIFIED'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withoutParameters()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses java.net.InetAddress increment(java.net.InetAddress) 0'>
@@ -203,6 +197,9 @@
     <item name='com.google.common.net.HttpHeaders PROXY_AUTHENTICATE'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withParameters(com.google.common.collect.Multimap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.InetAddresses boolean is6to4Address(java.net.Inet6Address) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
@@ -221,10 +218,25 @@
     <item name='com.google.common.net.HttpHeaders REFERER'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.InetAddresses.TeredoInfo java.net.Inet4Address getServer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType create(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.InetAddresses boolean isTeredoAddress(java.net.Inet6Address) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.InternetDomainName com.google.common.collect.ImmutableList&lt;java.lang.String&gt; parts()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InetAddresses com.google.common.net.InetAddresses.TeredoInfo getTeredoInfo(java.net.Inet6Address)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.HttpHeaders ACCESS_CONTROL_ALLOW_CREDENTIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InetAddresses.TeredoInfo java.net.Inet4Address getClient()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders UPGRADE'>
@@ -251,13 +263,13 @@
     <item name='com.google.common.net.InetAddresses java.lang.String toAddrString(java.net.InetAddress) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withCharset(java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.HttpHeaders LINK'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses java.net.Inet4Address getCoercedIPv4Address(java.net.InetAddress) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.HostAndPort com.google.common.net.HostAndPort withDefaultPort(int)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders CONTENT_LOCATION'>
@@ -266,13 +278,10 @@
     <item name='com.google.common.net.HttpHeaders DNT'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlFragmentEscaper()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders EXPECT'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withParameter(java.lang.String, java.lang.String)'>
+    <item name='com.google.common.net.MediaType com.google.common.base.Optional&lt;java.nio.charset.Charset&gt; charset()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders ACCESS_CONTROL_ALLOW_ORIGIN'>
@@ -299,16 +308,16 @@
     <item name='com.google.common.net.InetAddresses java.net.InetAddress forUriString(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.InternetDomainName java.lang.String toString()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlFormParameterEscaper()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders VARY'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses java.net.InetAddress forString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InternetDomainName java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName parent()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders EXPIRES'>
@@ -341,9 +350,6 @@
     <item name='com.google.common.net.InetAddresses boolean isIsatapAddress(java.net.Inet6Address) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType create(java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
     <item name='com.google.common.net.HttpHeaders CONNECTION'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
@@ -362,25 +368,16 @@
     <item name='com.google.common.net.HttpHeaders IF_MATCH'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withParameter(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='com.google.common.net.HttpHeaders X_POWERED_BY'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.InetAddresses com.google.common.net.InetAddresses.TeredoInfo getTeredoInfo(java.net.Inet6Address)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withCharset(java.nio.charset.Charset)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders ACCESS_CONTROL_MAX_AGE'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders WARNING'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.MediaType com.google.common.base.Optional&lt;java.nio.charset.Charset&gt; charset()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName child(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders IF_MODIFIED_SINCE'>
@@ -390,6 +387,12 @@
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.InetAddresses java.net.Inet4Address getIsatapIPv4Address(java.net.Inet6Address) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.InternetDomainName com.google.common.net.InternetDomainName from(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.google.common.net.UrlEscapers com.google.common.escape.Escaper urlFragmentEscaper()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders AGE'>
@@ -428,10 +431,7 @@
     <item name='com.google.common.net.InetAddresses boolean isCompatIPv4Address(java.net.Inet6Address) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withParameters(com.google.common.collect.Multimap&lt;java.lang.String,java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.google.common.net.MediaType com.google.common.net.MediaType parse(java.lang.String)'>
+    <item name='com.google.common.net.MediaType com.google.common.net.MediaType withoutParameters()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='com.google.common.net.HttpHeaders SERVER'>

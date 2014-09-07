@@ -9,7 +9,6 @@ import com.google.common.util.concurrent.ListeningScheduledExecutorService
 
 inline fun <I, O> ListenableFuture<I>.transform(executor: ListeningScheduledExecutorService,
                                                 delay: Long, unit: TimeUnit, function: (I) -> O) : ListenableFuture<O> {
-
     return Futures.transform(this) { (input: I) ->
         executor.schedule({ () : O -> function(input)}, delay, unit)
     }
